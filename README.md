@@ -1,6 +1,6 @@
 # pollmark_deneme
 
-bitirme projesi
+JOTFORMDAN ESİNLENEREK YAPMAYA ÇALIŞTIĞIMIZ BİTİRME PROJEMİZ = POLLMARK
 
 ## Getting Started
 
