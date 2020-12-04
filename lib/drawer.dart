@@ -7,7 +7,14 @@ class DrawerEkrani extends StatelessWidget {
       child: Column(
         children: <Widget>[
           UserAccountsDrawerHeader(
-            decoration: BoxDecoration(color: Colors.blue.shade700),
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                  colors: [Colors.pink, Colors.purple.shade900],
+                  begin: FractionalOffset(0.0, 0.0),
+                  end: FractionalOffset(1.5, 0.0),
+                  stops: [0.0, 1.0],
+                  tileMode: TileMode.clamp),
+            ),
             accountName: Text("omerozkokeli"),
             accountEmail: Text("omerozkokeli23@gmail.com"),
             currentAccountPicture: Image.network(

@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-class AnaSayfa extends StatefulWidget {
+class AnketYap extends StatefulWidget {
   @override
-  _AnaSayfaState createState() => _AnaSayfaState();
+  _AnketYapState createState() => _AnketYapState();
 }
 
-class _AnaSayfaState extends State<AnaSayfa> {
+class _AnketYapState extends State<AnketYap> {
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Center(
         child: Text(
-          "ANA SAYFA : YAPILAN FORMLAR KUTU HALİNDE OLUCAK",
+          "ŞABLONLARDAN İSTEMEYENLERİN KENDİ ANKETLERİNİ YAPMA YERİ",
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
       ),

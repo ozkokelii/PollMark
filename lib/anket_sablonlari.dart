@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-class AnaSayfa extends StatefulWidget {
+class AnketSablonlari extends StatefulWidget {
   @override
-  _AnaSayfaState createState() => _AnaSayfaState();
+  _AnketSablonlariState createState() => _AnketSablonlariState();
 }
 
-class _AnaSayfaState extends State<AnaSayfa> {
+class _AnketSablonlariState extends State<AnketSablonlari> {
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Center(
         child: Text(
-          "ANA SAYFA : YAPILAN FORMLAR KUTU HALİNDE OLUCAK",
+          "HAZIR ANKET ŞABLONLARININ BULUNDUĞU YER ",
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
       ),
